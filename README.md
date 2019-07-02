@@ -3,7 +3,7 @@ Measurement System
 
 ### Currently Supported Measurements
 
-* Length (Square and Cibuc, too)
+* Length (Square and Cubic, too)
 * Mass
 * Duration
 * Velocity
