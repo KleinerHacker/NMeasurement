@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7175F39C-5F8A-4E9A-96BE-FAA9DAB0D20B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NMeasurement</RootNamespace>
+    <AssemblyName>NMeasurement</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\NMeasurement.xml</DocumentationFile>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\NMeasurement.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Internals\Attributes\MeasurementAttribute.cs" />
+    <Compile Include="IUnit.cs" />
+    <Compile Include="IMeasurement.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\Data\IDataVolumePrefix.cs" />
+    <Compile Include="Types\Data\Rates\Attributes\DataRateAttribute.cs" />
+    <Compile Include="Types\Data\Rates\DataRate.cs" />
+    <Compile Include="Types\Data\Rates\DataRateBase.cs" />
+    <Compile Include="Types\Data\Rates\Interfaces\IDataRate.cs" />
+    <Compile Include="Types\Data\Rates\Interfaces\IDataRateUnit.cs" />
+    <Compile Include="Types\Data\Rates\Interfaces\IDataRateUnitBase.cs" />
+    <Compile Include="Types\Data\Rates\Internals\DataRateUnit.cs" />
+    <Compile Include="Types\Data\Rates\Internals\DataRateUnitBase.cs" />
+    <Compile Include="Types\Data\Volumes\Attributes\DataVolumeAttribute.cs" />
+    <Compile Include="Types\Data\Volumes\DataVolume.cs" />
+    <Compile Include="Types\Data\Volumes\DataVolumeBase.cs" />
+    <Compile Include="Types\Data\Volumes\Interfaces\IDataVolume.cs" />
+    <Compile Include="Types\Data\Volumes\Interfaces\IDataVolumeUnit.cs" />
+    <Compile Include="Types\Data\Volumes\Interfaces\IDataVolumeUnitBase.cs" />
+    <Compile Include="Types\Data\Volumes\Internals\DataVolumePrefix.cs" />
+    <Compile Include="Types\Data\Volumes\Internals\DataVolumeUnit.cs" />
+    <Compile Include="Types\Data\Volumes\Internals\DataVolumeUnitBase.cs" />
+    <Compile Include="Types\Densities\Attributes\DensityAttribute.cs" />
+    <Compile Include="Types\Densities\Density.cs" />
+    <Compile Include="Types\Densities\DensityBase.cs" />
+    <Compile Include="Types\Densities\Interfaces\IDensity.cs" />
+    <Compile Include="Types\Densities\Interfaces\IDensityUnit.cs" />
+    <Compile Include="Types\Densities\Interfaces\IDensityUnitBase.cs" />
+    <Compile Include="Types\Densities\Internals\DensityUnit.cs" />
+    <Compile Include="Types\Densities\Internals\DensityUnitBase.cs" />
+    <Compile Include="Types\Durations\Attributes\DurationAttribute.cs" />
+    <Compile Include="Types\Durations\Duration.cs" />
+    <Compile Include="Types\Durations\DurationBase.cs" />
+    <Compile Include="Types\Durations\Interfaces\IDuration.cs" />
+    <Compile Include="Types\Durations\Interfaces\IDurationUnit.cs" />
+    <Compile Include="Types\Durations\Interfaces\IDurationUnitBase.cs" />
+    <Compile Include="Types\Durations\Internals\DurationUnit.cs" />
+    <Compile Include="Types\Durations\Internals\DurationUnitBase.cs" />
+    <Compile Include="Types\Energies\Attributes\EnergyAttribute.cs" />
+    <Compile Include="Types\Energies\Energy.cs" />
+    <Compile Include="Types\Energies\EnergyBase.cs" />
+    <Compile Include="Types\Energies\Interfaces\IEnergy.cs" />
+    <Compile Include="Types\Energies\Interfaces\IEnergyUnit.cs" />
+    <Compile Include="Types\Energies\Interfaces\IEnergyUnitBase.cs" />
+    <Compile Include="Types\Energies\Internals\EnergyUnit.cs" />
+    <Compile Include="Types\Energies\Internals\EnergyUnitBase.cs" />
+    <Compile Include="Types\Expeditions\Attributes\ExpeditionAttribute.cs" />
+    <Compile Include="Types\Expeditions\Expedition.cs" />
+    <Compile Include="Types\Expeditions\ExpeditionBase.cs" />
+    <Compile Include="Types\Expeditions\Interfaces\IExpedition.cs" />
+    <Compile Include="Types\Expeditions\Interfaces\IExpeditionUnit.cs" />
+    <Compile Include="Types\Expeditions\Interfaces\IExpeditionUnitBase.cs" />
+    <Compile Include="Types\Expeditions\Internals\ExpeditionUnit.cs" />
+    <Compile Include="Types\Expeditions\Internals\ExpeditionUnitBase.cs" />
+    <Compile Include="Types\Forces\Attributes\ForceAttribute.cs" />
+    <Compile Include="Types\Forces\Force.cs" />
+    <Compile Include="Types\Forces\ForceBase.cs" />
+    <Compile Include="Types\Forces\Interfaces\IForce.cs" />
+    <Compile Include="Types\Forces\Interfaces\IForceUnit.cs" />
+    <Compile Include="Types\Forces\Interfaces\IForceUnitBase.cs" />
+    <Compile Include="Types\Forces\Internals\ForceUnit.cs" />
+    <Compile Include="Types\Forces\Internals\ForceUnitBase.cs" />
+    <Compile Include="Types\Lengths\Attributes\LengthAttribute.cs" />
+    <Compile Include="Types\Lengths\CubicLength.cs" />
+    <Compile Include="Types\Lengths\Interfaces\ICubicLengthUnit.cs" />
+    <Compile Include="Types\Lengths\Interfaces\ILength.cs" />
+    <Compile Include="Types\Lengths\Interfaces\ILengthUnit.cs" />
+    <Compile Include="Types\Lengths\Interfaces\ILengthUnitBase.cs" />
+    <Compile Include="Types\Lengths\Interfaces\ILengthUnitUniversal.cs" />
+    <Compile Include="Types\Lengths\Interfaces\ISquareLengthUnit.cs" />
+    <Compile Include="Types\Lengths\Internals\CubicLengthUnit.cs" />
+    <Compile Include="Types\Lengths\Internals\LengthUnit.cs" />
+    <Compile Include="Types\Lengths\Internals\LengthUnitBase.cs" />
+    <Compile Include="Types\Lengths\Internals\LengthUnitUniversal.cs" />
+    <Compile Include="Types\Lengths\Internals\SquareLengthUnit.cs" />
+    <Compile Include="Types\Lengths\Length.cs" />
+    <Compile Include="Types\Lengths\LengthBase.cs" />
+    <Compile Include="Types\Lengths\SquareLength.cs" />
+    <Compile Include="Types\Masses\Attributes\MassAttribute.cs" />
+    <Compile Include="Types\Powers\Attributes\PowerAttribute.cs" />
+    <Compile Include="Types\Powers\Interfaces\IPower.cs" />
+    <Compile Include="Types\Powers\Interfaces\IPowerUnit.cs" />
+    <Compile Include="Types\Powers\Interfaces\IPowerUnitBase.cs" />
+    <Compile Include="Types\Powers\Internals\PowerUnit.cs" />
+    <Compile Include="Types\Powers\Internals\PowerUnitBase.cs" />
+    <Compile Include="Types\Powers\Power.cs" />
+    <Compile Include="Types\Powers\PowerBase.cs" />
+    <Compile Include="Types\Pressures\Attributes\PressureAttribute.cs" />
+    <Compile Include="Types\Pressures\Interfaces\IPressure.cs" />
+    <Compile Include="Types\Pressures\Interfaces\IPressureUnit.cs" />
+    <Compile Include="Types\Pressures\Interfaces\IPressureUnitBase.cs" />
+    <Compile Include="Types\Pressures\Internals\PressureUnit.cs" />
+    <Compile Include="Types\Pressures\Internals\PressureUnitBase.cs" />
+    <Compile Include="Types\Pressures\Pressure.cs" />
+    <Compile Include="Types\Pressures\PressureBase.cs" />
+    <Compile Include="Types\Temperatures\Attributes\TemperatureAttribute.cs" />
+    <Compile Include="Types\Velocity\Attributes\VelocityAttribute.cs" />
+    <Compile Include="Types\Velocity\Interfaces\IVelocity.cs" />
+    <Compile Include="Types\Velocity\Interfaces\IVelocityUnit.cs" />
+    <Compile Include="Types\Velocity\Interfaces\IVelocityUnitBase.cs" />
+    <Compile Include="Types\Velocity\Internals\VelocityUnit.cs" />
+    <Compile Include="Types\Velocity\Internals\VelocityUnitBase.cs" />
+    <Compile Include="Types\Velocity\Velocity.cs" />
+    <Compile Include="Types\Velocity\VelocityBase.cs" />
+    <Compile Include="Types\Temperatures\Interfaces\ITemperature.cs" />
+    <Compile Include="Types\Temperatures\Interfaces\ITemperatureUnit.cs" />
+    <Compile Include="Types\Temperatures\Interfaces\ITemperatureUnitBase.cs" />
+    <Compile Include="Types\Temperatures\Internals\TemperatureUnit.cs" />
+    <Compile Include="Types\Temperatures\Internals\TemperatureUnitBase.cs" />
+    <Compile Include="Types\Temperatures\Temperature.cs" />
+    <Compile Include="Types\Temperatures\TemperatureBase.cs" />
+    <Compile Include="Types\Masses\Interfaces\IMass.cs" />
+    <Compile Include="Types\Masses\Interfaces\IMassUnit.cs" />
+    <Compile Include="Types\Masses\Interfaces\IMassUnitBase.cs" />
+    <Compile Include="Types\Masses\Internals\MassUnit.cs" />
+    <Compile Include="Types\Masses\Internals\MassUnitBase.cs" />
+    <Compile Include="Types\Masses\Mass.cs" />
+    <Compile Include="Types\Masses\MassBase.cs" />
+    <Compile Include="IPrefix.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

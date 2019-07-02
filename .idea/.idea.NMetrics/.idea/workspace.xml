@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4648d34-18c7-4e14-9f78-bc8c97519623" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/IMeasurement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding>
+                <marker date="1559899378307" expanded="true" signature="18:218" ph="{...}" />
+                <marker date="1559899378307" expanded="true" signature="54:93" ph="{...}" />
+                <marker date="1559899378307" expanded="true" signature="170:216" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity1D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding>
+                <marker date="1559900756780" expanded="true" signature="70:235" ph="{...}" />
+                <marker date="1559900756780" expanded="true" signature="142:233" ph="{...}" />
+                <marker date="1559900756780" expanded="true" signature="207:227" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity2D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <marker date="1559900756701" expanded="true" signature="70:235" ph="{...}" />
+                <marker date="1559900756701" expanded="true" signature="142:233" ph="{...}" />
+                <marker date="1559900756701" expanded="true" signature="207:227" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <marker date="1559902025980" expanded="true" signature="70:274" ph="{...}" />
+                <marker date="1559902025980" expanded="true" signature="127:272" ph="{...}" />
+                <marker date="1559902025980" expanded="true" signature="217:266" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnityUniversal.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+              <folding>
+                <marker date="1559902107264" expanded="true" signature="70:256" ph="{...}" />
+                <marker date="1559902107264" expanded="true" signature="156:254" ph="{...}" />
+                <marker date="1559902107264" expanded="true" signature="228:248" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetric.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding>
+                <marker date="1559901871331" expanded="true" signature="36:128" ph="{...}" />
+                <marker date="1559901871331" expanded="true" signature="114:126" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric1D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <marker date="1559903723402" expanded="true" signature="66:787" ph="{...}" />
+                <marker date="1559903723402" expanded="true" signature="126:785" ph="{...}" />
+                <marker date="1559903723402" expanded="true" signature="192:212" ph="{...}" />
+                <marker date="1559903723402" expanded="true" signature="294:314" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement.App/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <marker date="1559903723393" expanded="true" signature="6:167" ph="..." />
+                <marker date="1559903723393" expanded="true" signature="195:426" ph="{...}" />
+                <marker date="1559903723393" expanded="true" signature="215:424" ph="{...}" />
+                <marker date="1559903723393" expanded="true" signature="261:418" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnityUniversal.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding>
+                <marker date="1559902130303" expanded="true" signature="36:158" ph="{...}" />
+                <marker date="1559902130303" expanded="true" signature="144:156" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric2D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding>
+                <marker date="1559903723379" expanded="true" signature="66:316" ph="{...}" />
+                <marker date="1559903723379" expanded="true" signature="126:314" ph="{...}" />
+                <marker date="1559903723379" expanded="true" signature="186:206" ph="{...}" />
+                <marker date="1559903723379" expanded="true" signature="288:308" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric3D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding>
+                <marker date="1559903723410" expanded="true" signature="66:322" ph="{...}" />
+                <marker date="1559903723410" expanded="true" signature="126:320" ph="{...}" />
+                <marker date="1559903723410" expanded="true" signature="192:212" ph="{...}" />
+                <marker date="1559903723410" expanded="true" signature="294:314" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <marker date="1559903154739" expanded="true" signature="66:527" ph="{...}" />
+                <marker date="1559903154739" expanded="true" signature="140:525" ph="{...}" />
+                <marker date="1559903154739" expanded="true" signature="232:286" ph="{...}" />
+                <marker date="1559903154739" expanded="true" signature="335:401" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity3D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <marker date="1559900756666" expanded="true" signature="70:235" ph="{...}" />
+                <marker date="1559900756666" expanded="true" signature="142:233" ph="{...}" />
+                <marker date="1559900756666" expanded="true" signature="207:227" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding>
+                <marker date="1559902130316" expanded="true" signature="36:95" ph="{...}" />
+                <marker date="1559902130316" expanded="true" signature="81:93" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity1D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding>
+                <marker date="1559902130323" expanded="true" signature="36:103" ph="{...}" />
+                <marker date="1559902130323" expanded="true" signature="89:101" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity2D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding>
+                <marker date="1559902130334" expanded="true" signature="36:103" ph="{...}" />
+                <marker date="1559902130334" expanded="true" signature="89:101" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity3D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding>
+                <marker date="1559902130289" expanded="true" signature="36:103" ph="{...}" />
+                <marker date="1559902130289" expanded="true" signature="89:101" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/NMeasurement.App/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnityUniversal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnityUniversal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric3D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric1D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetric.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/MetricUnities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity3D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity1D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity3D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity1D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/IUnity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NMeasurement/IMeasurement.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NMetrics/IMetric.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Matric.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/MetricUnit.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/IUnit.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/IUnity.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/IMeasurement.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/IMetric.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/Metric.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/Metric1D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/MetricUnity2D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/Metric2D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/IMetricUnity.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/IMetricUnity1D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/IMetricUnity2D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/IMetricUnity3D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/MetricUnityBase.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/MetricUnity.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/MetricUnity1D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/Internal/MetricUnity1D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/Internal/MetricUnity2D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/Internal/MetricUnity3D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/Internals/MetricUnity1D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/Internals/MetricUnity2D.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/Metrics.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/Internals/MetricUnity.cs" />
+        <option value="$PROJECT_DIR$/NMetrics/Metric/MetricUnities.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetric.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnityUniversal.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity1D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity2D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity3D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnityUniversal.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetric3D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetric2D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Internals/Metric3D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Internals/Metric2D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Internals/Metric.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetric1D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Internals/Metric1D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Metric.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Types/Metric.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Metrics.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/MetricUnities.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Types/Metric3D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Types/Metric2D.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement.App/Program.cs" />
+        <option value="$PROJECT_DIR$/NMeasurement/Metric/Types/Metric1D.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1586" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="NMetrics" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="NMetrics" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="NMeasurement" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="NMetrics" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="NMeasurement" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Metric" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="NMetrics" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="NMeasurement" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Metric" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Interfaces" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="NMetrics" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="NMeasurement" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Metric" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Internals" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="NMetrics" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="NMeasurement" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Metric" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Types" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="NMetrics" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="NMeasurement.App" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="PsiViewer.ProjectComponent">
+    <option name="HIGHLIGHT" value="false" />
+    <option name="FILTER_WHITESPACE" value="false" />
+    <option name="SHOW_PROPERTIES" value="true" />
+    <option name="SPLIT_DIVIDER_POSITION" value="300" />
+    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4648d34-18c7-4e14-9f78-bc8c97519623" name="Default Changelist" comment="" />
+      <created>1559892433414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559892433414</updated>
+      <workItem from="1559892434725" duration="7314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7314000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1586" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="SonarQube" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.3296011" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="PsiViewer" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NMetrics/MetricUnit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMetrics/Metric/Metric.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMetrics/Metric/Metric1D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMetrics/Metric/IMetric.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMetrics/Metric/MetricUnity2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="76" lean-forward="true" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMetrics/Metric/Metric2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity3D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1559900756666" expanded="true" signature="70:235" ph="{...}" />
+            <marker date="1559900756666" expanded="true" signature="142:233" ph="{...}" />
+            <marker date="1559900756666" expanded="true" signature="207:227" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1559900756701" expanded="true" signature="70:235" ph="{...}" />
+            <marker date="1559900756701" expanded="true" signature="142:233" ph="{...}" />
+            <marker date="1559900756701" expanded="true" signature="207:227" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMetrics.sln">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/IUnity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1559892907304" expanded="true" signature="18:93" ph="{...}" />
+            <marker date="1559892907304" expanded="true" signature="48:91" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/IMeasurement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1559899378307" expanded="true" signature="18:218" ph="{...}" />
+            <marker date="1559899378307" expanded="true" signature="54:93" ph="{...}" />
+            <marker date="1559899378307" expanded="true" signature="170:216" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity1D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1559900756780" expanded="true" signature="70:235" ph="{...}" />
+            <marker date="1559900756780" expanded="true" signature="142:233" ph="{...}" />
+            <marker date="1559900756780" expanded="true" signature="207:227" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <marker date="1559902025980" expanded="true" signature="70:274" ph="{...}" />
+            <marker date="1559902025980" expanded="true" signature="127:272" ph="{...}" />
+            <marker date="1559902025980" expanded="true" signature="217:266" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1559902130316" expanded="true" signature="36:95" ph="{...}" />
+            <marker date="1559902130316" expanded="true" signature="81:93" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity1D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1559902130323" expanded="true" signature="36:103" ph="{...}" />
+            <marker date="1559902130323" expanded="true" signature="89:101" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1559902130334" expanded="true" signature="36:103" ph="{...}" />
+            <marker date="1559902130334" expanded="true" signature="89:101" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnity3D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1559902130289" expanded="true" signature="36:103" ph="{...}" />
+            <marker date="1559902130289" expanded="true" signature="89:101" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetricUnityUniversal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1559902130303" expanded="true" signature="36:158" ph="{...}" />
+            <marker date="1559902130303" expanded="true" signature="144:156" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetric3D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetric2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Internals/MetricUnityUniversal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+          <folding>
+            <marker date="1559902107264" expanded="true" signature="70:256" ph="{...}" />
+            <marker date="1559902107264" expanded="true" signature="156:254" ph="{...}" />
+            <marker date="1559902107264" expanded="true" signature="228:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetric1D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Interfaces/IMetric.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1559901871331" expanded="true" signature="36:128" ph="{...}" />
+            <marker date="1559901871331" expanded="true" signature="114:126" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <marker date="1559903154739" expanded="true" signature="66:527" ph="{...}" />
+            <marker date="1559903154739" expanded="true" signature="140:525" ph="{...}" />
+            <marker date="1559903154739" expanded="true" signature="232:286" ph="{...}" />
+            <marker date="1559903154739" expanded="true" signature="335:401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric3D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <marker date="1559903723410" expanded="true" signature="66:322" ph="{...}" />
+            <marker date="1559903723410" expanded="true" signature="126:320" ph="{...}" />
+            <marker date="1559903723410" expanded="true" signature="192:212" ph="{...}" />
+            <marker date="1559903723410" expanded="true" signature="294:314" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <marker date="1559903723379" expanded="true" signature="66:316" ph="{...}" />
+            <marker date="1559903723379" expanded="true" signature="126:314" ph="{...}" />
+            <marker date="1559903723379" expanded="true" signature="186:206" ph="{...}" />
+            <marker date="1559903723379" expanded="true" signature="288:308" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Metrics.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/MetricUnities.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <marker date="1559903359441" expanded="false" signature="6:66" ph="..." />
+            <marker date="1559903359441" expanded="true" signature="93:899" ph="{...}" />
+            <marker date="1559903359441" expanded="true" signature="133:897" ph="{...}" />
+            <marker date="1559903359441" expanded="true" signature="722:891" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement.App/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <marker date="1559903723393" expanded="true" signature="6:167" ph="..." />
+            <marker date="1559903723393" expanded="true" signature="195:426" ph="{...}" />
+            <marker date="1559903723393" expanded="true" signature="215:424" ph="{...}" />
+            <marker date="1559903723393" expanded="true" signature="261:418" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMeasurement/Metric/Types/Metric1D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <marker date="1559903723402" expanded="true" signature="66:787" ph="{...}" />
+            <marker date="1559903723402" expanded="true" signature="126:785" ph="{...}" />
+            <marker date="1559903723402" expanded="true" signature="192:212" ph="{...}" />
+            <marker date="1559903723402" expanded="true" signature="294:314" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
