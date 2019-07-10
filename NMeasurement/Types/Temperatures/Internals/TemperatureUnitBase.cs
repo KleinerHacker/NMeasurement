@@ -3,28 +3,26 @@ using NMeasurement.Types.Temperatures.Interfaces;
 
 namespace NMeasurement.Types.Temperatures.Internals
 {
-    internal abstract class TemperatureUnitBase : ITemperatureUnit
+    internal abstract class TemperatureUnitBase : SingleUnitBase, ITemperatureUnit
     {
-        private readonly Func<double, double> _calculationToRawValue;
-        private readonly Func<double, double> _calculationFromRawValue;
-
-        public string Abbreviation { get; }
-
-        protected TemperatureUnitBase(Func<double, double> calculationToRawValue, Func<double, double> calculationFromRawValue, string abbreviation)
+        protected TemperatureUnitBase(Func<double, uint, double> toRawValue, Func<double, uint, double> fromRawValue, string abbreviation) : base(toRawValue, fromRawValue, abbreviation)
         {
-            _calculationToRawValue = calculationToRawValue;
-            _calculationFromRawValue = calculationFromRawValue;
-            Abbreviation = abbreviation;
         }
 
-        public double CalculateToRawValue(double value)
+        public double CalculateToRawValue(double value, uint dimension = 1)
         {
-            return _calculationToRawValue.Invoke(value);
+            if (dimension != 1)
+                throw new ArgumentException("Temperature do not support multiple dimensions");
+            
+            return base.CalculateToRawValue(value, dimension);
         }
 
-        public double CalculateFromRawValue(double rawValue)
+        public double CalculateFromRawValue(double rawValue, uint dimension = 1)
         {
-            return _calculationFromRawValue.Invoke(rawValue);
+            if (dimension != 1)
+                throw new ArgumentException("Temperature do not support multiple dimensions");
+
+            return base.CalculateFromRawValue(rawValue, dimension);
         }
     }
 }

@@ -5,7 +5,7 @@ namespace NMeasurement.Types.Expeditions.Internals
 {
     internal sealed class ExpeditionUnit : ExpeditionUnitBase
     {
-        public ExpeditionUnit((ILengthUnit, IPrefix) lengthUnit, (IDurationUnit, IPrefix) durationUnit, string abbreviation = null) : base(lengthUnit, durationUnit, abbreviation)
+        public ExpeditionUnit((ILengthUnit, IPrefix) lengthUnit, (IDurationUnit, ISmallPrefix) durationUnit, string abbreviation = null) : base(lengthUnit, durationUnit, abbreviation)
         {
         }
 

@@ -2,6 +2,7 @@ using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NMeasurement.Types.Durations;
 using NMeasurement.Types.Expeditions;
+using NMeasurement.Types.Lengths;
 using NMeasurement.Types.Velocity;
 
 namespace NMeasurement.Test
@@ -22,6 +23,9 @@ namespace NMeasurement.Test
         public void TestExpeditionConvert()
         {
             Assert.AreEqual(1.0197162129779282d, Expedition.FromMetersPerSquareSecond(10d).Gravity, DoubleDelta);
+
+            var unit = Expedition.Unit.CreateUnit((Length.Unit.Meter, null), (Duration.Unit.Minute, null));
+            Assert.AreEqual(35999.9999999712d, Expedition.FromMetersPerSquareSecond(10d).GetValue(unit), DoubleDelta);
         }
 
         [TestMethod]

@@ -81,15 +81,15 @@ namespace NMeasurement.Types.Temperatures
             /// <summary>
             /// <b>Base unit</b>
             /// </summary>
-            public static ITemperatureUnit Celsius { get; } = new TemperatureUnit(v => v + 273.15d, v => v - 273.15d, "°C");
+            public static ITemperatureUnit Celsius { get; } = new TemperatureUnit((v, d) => v + 273.15d, (v, d) => v - 273.15d, "°C");
             /// <summary>
             /// = (base - 32) * 5/9 + 273,15
             /// </summary>
-            public static ITemperatureUnit Fahrenheit { get; } = new TemperatureUnit(v => (v - 32d) * 5d / 9d + 273.15d, v => (v - 273.15d) * 9d / 5d + 32d, "°F");
+            public static ITemperatureUnit Fahrenheit { get; } = new TemperatureUnit((v, d) => (v - 32d) * 5d / 9d + 273.15d, (v, d) => (v - 273.15d) * 9d / 5d + 32d, "°F");
             /// <summary>
             /// <b>Base unit</b>
             /// </summary>
-            public static ITemperatureUnit Kelvin { get; } = new TemperatureUnit(v => v, v => v, "°K");
+            public static ITemperatureUnit Kelvin { get; } = new TemperatureUnit((v, d) => v, (v, d) => v, "°K");
 
             /// <summary>
             /// Create a custom temperature unit based on given calculation function
@@ -98,7 +98,7 @@ namespace NMeasurement.Types.Temperatures
             /// <param name="calculationFromRawValue">Function to call to calculate value from raw value (based on <b>1° celsius</b>)</param>
             /// <param name="abbreviation">Abbreviation for custom temperature unit</param>
             /// <returns>A customized temperature unit</returns>
-            public static ITemperatureUnit CreateUnit(Func<double, double> calculationToRawValue, Func<double, double> calculationFromRawValue, string abbreviation = "<custom>")
+            public static ITemperatureUnit CreateUnit(Func<double, uint, double> calculationToRawValue, Func<double, uint, double> calculationFromRawValue, string abbreviation = "<custom>")
             {
                 return new TemperatureUnit(calculationToRawValue, calculationFromRawValue, abbreviation);
             }

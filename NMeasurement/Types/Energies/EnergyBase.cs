@@ -47,7 +47,7 @@ namespace NMeasurement.Types.Energies
         protected override double CalculateToRawValue(double value, T unit) => unit.CalculateToRawValue(value);
         protected override double CalculateFromRawValue(double rawValue, T unit) => unit.CalculateFromRawValue(rawValue);
 
-        public override string ToString(T unit, IPrefix prefix) => $"{GetValue(unit)} {prefix?.Abbreviation ?? ""}{unit.TotalAbbreviation}";
+        public override string ToString(T unit, IPrefix prefix) => $"{GetValue(unit)} {prefix?.Abbreviation ?? ""}{unit.Abbreviation}";
 
         #endregion
 
@@ -84,7 +84,7 @@ namespace NMeasurement.Types.Energies
             /// <param name="durationUnit">Square duration unit to use for custom energy unit</param>
             /// <param name="abbreviation">Abbreviation for custom energy unit</param>
             /// <returns>A valid custom energy unit</returns>
-            public static IEnergyUnit CreateUnit((IMassUnit, IPrefix) massUnit, (ISquareLengthUnit, IPrefix) lengthUnit, (IDurationUnit, IPrefix) durationUnit, string abbreviation = null)
+            public static IEnergyUnit CreateUnit((IMassUnit, IPrefix) massUnit, (ISquareLengthUnit, IPrefix) lengthUnit, (IDurationUnit, ISmallPrefix) durationUnit, string abbreviation = null)
             {
                 return new EnergyUnit(massUnit, lengthUnit, durationUnit, abbreviation);
             }

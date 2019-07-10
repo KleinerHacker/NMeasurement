@@ -62,7 +62,7 @@ namespace NMeasurement.Types.Lengths
 
         protected override void HandleAttribute(LengthAttribute attribute) => _dimension = attribute.Dimension;
 
-        public override string ToString(T unit, IPrefix prefix) => $"{GetValue(unit)} {prefix?.Abbreviation ?? ""}{unit.Abbreviation(_dimension)}";
+        public override string ToString(T unit, IPrefix prefix) => $"{GetValue(unit)} {prefix?.Abbreviation ?? ""}{unit.GetAbbreviation(_dimension)}";
 
         #endregion
 

@@ -1,6 +1,6 @@
 namespace NMeasurement.Types.Powers.Interfaces
 {
-    public interface IPowerUnitBase : IStandardUnit
+    public interface IPowerUnitBase : ICombinedUnit
     {
     }
 }

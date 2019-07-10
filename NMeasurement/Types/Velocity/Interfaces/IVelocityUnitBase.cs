@@ -1,16 +1,6 @@
 namespace NMeasurement.Types.Velocity.Interfaces
 {
-    public interface IVelocityUnitBase : ICombinedUnit<VelocityNumeratorUnit, VelocityDenominatorUnit>
+    public interface IVelocityUnitBase : ICombinedUnit
     {
-    }
-
-    public enum VelocityNumeratorUnit
-    {
-        Length
-    }
-
-    public enum VelocityDenominatorUnit
-    {
-        Duration
     }
 }

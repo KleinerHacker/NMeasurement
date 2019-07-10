@@ -6,7 +6,7 @@ namespace NMeasurement.Types.Energies.Internals
 {
     internal sealed class EnergyUnit : EnergyUnitBase
     {
-        public EnergyUnit((IMassUnit, IPrefix) massUnit, (ISquareLengthUnit, IPrefix) lengthUnit, (IDurationUnit, IPrefix) durationUnit, string abbreviation = null) : base(massUnit, lengthUnit, durationUnit, abbreviation)
+        public EnergyUnit((IMassUnit, IPrefix) massUnit, (ISquareLengthUnit, IPrefix) lengthUnit, (IDurationUnit, ISmallPrefix) durationUnit, string abbreviation = null) : base(massUnit, lengthUnit, durationUnit, abbreviation)
         {
         }
 

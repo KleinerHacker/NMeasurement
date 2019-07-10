@@ -1,8 +1,14 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
+using NMeasurement.Types.Durations;
+using NMeasurement.Types.Durations.Interfaces;
 using NMeasurement.Types.Forces.Attributes;
 using NMeasurement.Types.Forces.Interfaces;
 using NMeasurement.Types.Forces.Internals;
+using NMeasurement.Types.Lengths;
+using NMeasurement.Types.Lengths.Interfaces;
+using NMeasurement.Types.Masses;
+using NMeasurement.Types.Masses.Interfaces;
 
 namespace NMeasurement.Types.Forces
 {
@@ -56,11 +62,11 @@ namespace NMeasurement.Types.Forces
             /// <summary>
             /// Newton - <b>Base unit</b>
             /// </summary>
-            public static IForceUnit Newton { get; } = new ForceUnit(1d, "N");
+            public static IForceUnit Newton { get; } = new ForceUnit(1000d, "N");
             /// <summary>
             /// = 1 N
             /// </summary>
-            public static IForceUnit KilogramMeterPerSquareSecond { get; } = new ForceUnit(1d, "kg m/s²");
+            public static IForceUnit KilogramMeterPerSquareSecond { get; } = new ForceUnit((Mass.Unit.Gram, UnitPrefix.Kilo), (Length.Unit.Meter, null), (Duration.Unit.Second, null));
         
             /// <summary>
             /// Creates a custom force unit based on given factor
@@ -69,6 +75,19 @@ namespace NMeasurement.Types.Forces
             /// <param name="abbreviation">Abbreviation for custom force unit</param>
             /// <returns>A valid custom force unit</returns>
             public static IForceUnit CreateUnit(double factor, string abbreviation = "<custom>") => new ForceUnit(factor, abbreviation);
+
+            /// <summary>
+            /// Creates a custom force unit based on combined elements (m*l/t²)
+            /// </summary>
+            /// <param name="massUnit">Mass unit for custom force unit</param>
+            /// <param name="lengthUnit">length unit for custom force unit</param>
+            /// <param name="durationUnit">Square duration unit for custom force unit</param>
+            /// <param name="abbreviation">Optional abbreviation (overwrite) for custom force unit</param>
+            /// <returns>A valid custom force unit</returns>
+            public static IForceUnit CreateUnit((IMassUnit, IPrefix) massUnit, (ILengthUnit, IPrefix) lengthUnit, (IDurationUnit, ISmallPrefix) durationUnit, string abbreviation = null)
+            {
+                return new ForceUnit(massUnit, lengthUnit, durationUnit, abbreviation);
+            }
         }
 
         #endregion

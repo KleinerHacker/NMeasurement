@@ -6,7 +6,7 @@ namespace NMeasurement.Types.Lengths.Internals
     /// <summary>
     /// Abstract base class for all length units
     /// </summary>
-    internal abstract class LengthUnitBase : FactorMultiDimensionalUnitBase, ILengthUnitBase
+    internal abstract class LengthUnitBase : FactorSingleUnitBase, ILengthUnitBase
     {
         public abstract uint DimensionBase { get; }
 

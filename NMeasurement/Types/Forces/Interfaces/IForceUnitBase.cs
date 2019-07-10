@@ -1,6 +1,6 @@
 namespace NMeasurement.Types.Forces.Interfaces
 {
-    public interface IForceUnitBase : IStandardUnit
+    public interface IForceUnitBase : ICombinedUnit
     {
     }
 }

@@ -1,16 +1,6 @@
 namespace NMeasurement.Types.Densities.Interfaces
 {
-    public interface IDensityUnitBase : ICombinedUnit<DensityNumeratorUnit, DensityDenominatorUnit>
+    public interface IDensityUnitBase : ICombinedUnit
     {
-    }
-
-    public enum DensityNumeratorUnit
-    {
-        Mass
-    }
-
-    public enum DensityDenominatorUnit
-    {
-        CubicLength
     }
 }

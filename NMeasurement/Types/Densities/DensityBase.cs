@@ -49,7 +49,7 @@ namespace NMeasurement.Types.Densities
         protected override double CalculateToRawValue(double value, T unit) => unit.CalculateToRawValue(value);
         protected override double CalculateFromRawValue(double rawValue, T unit) => unit.CalculateFromRawValue(rawValue);
 
-        public override string ToString(T unit) => $"{GetValue(unit)} {unit.TotalAbbreviation}";
+        public override string ToString(T unit) => $"{GetValue(unit)} {unit.Abbreviation}";
 
         #endregion
 

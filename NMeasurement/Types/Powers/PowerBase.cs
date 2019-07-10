@@ -1,4 +1,12 @@
 using System;
+using NMeasurement.Types.Durations;
+using NMeasurement.Types.Durations.Interfaces;
+using NMeasurement.Types.Energies;
+using NMeasurement.Types.Energies.Interfaces;
+using NMeasurement.Types.Lengths;
+using NMeasurement.Types.Lengths.Interfaces;
+using NMeasurement.Types.Masses;
+using NMeasurement.Types.Masses.Interfaces;
 using NMeasurement.Types.Powers.Attributes;
 using NMeasurement.Types.Powers.Interfaces;
 using NMeasurement.Types.Powers.Internals;
@@ -28,7 +36,7 @@ namespace NMeasurement.Types.Powers
         public double JoulePerSecond => GetValue((T) Unit.JoulePerSecond);
 
         #endregion
-        
+
         protected internal PowerBase(double value) : base(value)
         {
         }
@@ -56,23 +64,31 @@ namespace NMeasurement.Types.Powers
             /// <summary>
             /// <b>Base Unit</b>
             /// </summary>
-            public static IPowerUnit Watt { get; } = new PowerUnit(1d, "W");
+            public static IPowerUnit Watt { get; } = new PowerUnit(1000d, "W");
+
             /// <summary>
             /// = 1
             /// </summary>
-            public static IPowerUnit KilogramSquareMeterPerCubicSecond { get; } = new PowerUnit(1d, "kg m²/s³");
+            public static IPowerUnit KilogramSquareMeterPerCubicSecond { get; } = new PowerUnit((Mass.Unit.Gram, UnitPrefix.Kilo), (Length.Unit.Meter, null), (Duration.Unit.Second, null));
+
             /// <summary>
             /// = 1
             /// </summary>
-            public static IPowerUnit JoulePerSecond { get; } = new PowerUnit(1d, "J/s");
-        
+            public static IPowerUnit JoulePerSecond { get; } = new PowerUnit((Energy.Unit.Joule, null), (Duration.Unit.Second, null));
+
             /// <summary>
             /// Creates a custom power unit based on given factor
             /// </summary>
             /// <param name="factor">Factor for custom power unit</param>
             /// <param name="abbreviation">Abbreviation for custom power unit</param>
             /// <returns>A valid custom power unit</returns>
-            public static IPowerUnit CreateUnit(double factor, string abbreviation = "<custom>") => new PowerUnit(factor, abbreviation);
+            public static IPowerUnit CreateFactorUnit(double factor, string abbreviation = "<custom>") => new PowerUnit(factor, abbreviation);
+
+            /// <summary>
+            /// Creates a new combined unit from builder
+            /// </summary>
+            /// <returns></returns>
+            public static PowerUnitCombinedBuilder CreateCombinedUnit() => new PowerUnitCombinedBuilder();
         }
 
         #endregion

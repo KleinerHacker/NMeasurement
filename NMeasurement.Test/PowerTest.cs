@@ -23,6 +23,11 @@ namespace NMeasurement.Test
         public void TestPowerConvert()
         {
             Assert.AreEqual(10d, Power.FromWatt(10d).KilogramSquareMeterPerCubicSecond, DoubleDelta);
+
+            Power.Unit.CreateCombinedUnit()
+                .WithEnergy(Energy.Unit.Joule)
+                .DivideByDuration(Duration.Unit.Second)
+                .Build();
         }
 
         [TestMethod]

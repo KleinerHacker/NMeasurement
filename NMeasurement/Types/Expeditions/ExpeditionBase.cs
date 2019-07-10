@@ -45,7 +45,7 @@ namespace NMeasurement.Types.Expeditions
         protected override double CalculateToRawValue(double value, T unit) => unit.CalculateToRawValue(value);
         protected override double CalculateFromRawValue(double rawValue, T unit) => unit.CalculateFromRawValue(Value);
 
-        public override string ToString(T unit, IPrefix prefix) => $"{GetValue(unit)} {prefix?.Abbreviation ?? ""}{unit.TotalAbbreviation}";
+        public override string ToString(T unit, IPrefix prefix) => $"{GetValue(unit)} {prefix?.Abbreviation ?? ""}{unit.Abbreviation}";
 
         #endregion
 
@@ -81,7 +81,7 @@ namespace NMeasurement.Types.Expeditions
             /// <param name="durationUnit">Square duration unit of custom expedition unit to use</param>
             /// <param name="abbreviation">Abbreviation for custom expedition unit</param>
             /// <returns>A valid custom expedition unit</returns>
-            public static IExpeditionUnit CreateUnit((ILengthUnit, IPrefix) lengthUnit, (IDurationUnit, IPrefix) durationUnit, string abbreviation = "<custom>")
+            public static IExpeditionUnit CreateUnit((ILengthUnit, IPrefix) lengthUnit, (IDurationUnit, ISmallPrefix) durationUnit, string abbreviation = "<custom>")
             {
                 return new ExpeditionUnit(lengthUnit, durationUnit, abbreviation);
             }

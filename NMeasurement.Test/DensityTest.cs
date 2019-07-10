@@ -21,6 +21,12 @@ namespace NMeasurement.Test
         public void TestDensityConvert()
         {
             Assert.AreEqual(0.01d, Density.FromGramPerCubicMeter(10d).GramPerLitre, DoubleDelta);
+
+            var unit = Density.Unit.CreateUnit((Mass.Unit.Gram, null), (Length.Unit.Feet, null));
+            Assert.AreEqual(0.2831684659199085d, Density.FromGramPerCubicMeter(10d).GetValue(unit), DoubleDelta);
+            
+            unit = Density.Unit.CreateUnit((Mass.Unit.Gram, null), (Length.Unit.Cubic.Litre, null));
+            Assert.AreEqual(0.01d, Density.FromGramPerCubicMeter(10d).GetValue(unit), DoubleDelta);
         }
 
         [TestMethod]

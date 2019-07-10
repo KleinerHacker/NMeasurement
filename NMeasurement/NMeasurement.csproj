@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NMeasurement</RootNamespace>
     <AssemblyName>NMeasurement</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -131,6 +131,7 @@
     <Compile Include="Types\Powers\Internals\PowerUnitBase.cs" />
     <Compile Include="Types\Powers\Power.cs" />
     <Compile Include="Types\Powers\PowerBase.cs" />
+    <Compile Include="Types\Powers\PowerUnitBuilder.cs" />
     <Compile Include="Types\Pressures\Attributes\PressureAttribute.cs" />
     <Compile Include="Types\Pressures\Interfaces\IPressure.cs" />
     <Compile Include="Types\Pressures\Interfaces\IPressureUnit.cs" />
@@ -163,6 +164,7 @@
     <Compile Include="Types\Masses\Mass.cs" />
     <Compile Include="Types\Masses\MassBase.cs" />
     <Compile Include="IPrefix.cs" />
+    <Compile Include="Utils\ExtendedMathUtils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
