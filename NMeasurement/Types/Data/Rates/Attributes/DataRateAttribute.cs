@@ -1,5 +1,5 @@
 using System;
-using NMeasurement.Internals.Attributes;
+using NMeasurement.Commons.Attributes;
 
 namespace NMeasurement.Types.Data.Rates.Attributes
 {

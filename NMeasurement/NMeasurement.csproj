@@ -44,7 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Internals\Attributes\MeasurementAttribute.cs" />
+    <Compile Include="Commons\Attributes\MeasurementAttribute.cs" />
+    <Compile Include="Commons\Builder\Attributes\UnitBuilderAttribute.cs" />
+    <Compile Include="Commons\Builder\IUnitBuilder.cs" />
+    <Compile Include="Commons\Builder\UnitBuilderFactory.cs" />
     <Compile Include="IUnit.cs" />
     <Compile Include="IMeasurement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

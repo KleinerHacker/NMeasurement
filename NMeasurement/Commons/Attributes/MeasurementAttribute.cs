@@ -1,8 +1,7 @@
 using System;
 using System.Reflection;
-using NMeasurement.Types.Forces.Attributes;
 
-namespace NMeasurement.Internals.Attributes
+namespace NMeasurement.Commons.Attributes
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public abstract class MeasurementAttribute : Attribute

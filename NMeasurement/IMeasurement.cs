@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
-using NMeasurement.Internals.Attributes;
+using NMeasurement.Commons.Attributes;
 
 namespace NMeasurement
 {

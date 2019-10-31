@@ -1,4 +1,6 @@
 using System.Security;
+using NMeasurement.Commons.Builder;
+using NMeasurement.Commons.Builder.Attributes;
 using NMeasurement.Types.Durations.Interfaces;
 using NMeasurement.Types.Energies.Interfaces;
 using NMeasurement.Types.Lengths.Interfaces;
@@ -8,6 +10,36 @@ using NMeasurement.Types.Powers.Internals;
 
 namespace NMeasurement.Types.Powers
 {
+    [UnitBuilder]
+    public interface IPowerUnitBuilder : IUnitBuilder
+    {
+        IPowerUnitMassBuilder WithMass(IMassUnit unit, IPrefix prefix = null);
+        IPowerUnitEnergyBuilder WithEnergy(IEnergyUnit unit, IPrefix prefix = null);
+    }
+
+    [UnitBuilder]
+    public interface IPowerUnitMassBuilder : IUnitBuilder
+    {
+        IPowerUnitLengthBuilder MultiplyWithSquareLength(ISquareLengthUnit unit, IPrefix prefix = null);
+    }
+
+    [UnitBuilder]
+    public interface IPowerUnitEnergyBuilder : IUnitBuilder
+    {
+        IPowerUnitDurationBuilder DivideByDuration(IDurationUnit unit, ISmallPrefix prefix = null);
+    }
+
+    [UnitBuilder]
+    public interface IPowerUnitLengthBuilder : IUnitBuilder
+    {
+        IPowerUnitDurationBuilder DivideByCubicDuration(IDurationUnit unit, ISmallPrefix prefix = null);
+    }
+
+    [UnitBuilder]
+    public interface IPowerUnitDurationBuilder : IUnitBuilderTerminator<IPowerUnit>
+    {
+    }
+
     #region Combined Builder
 
     public sealed class PowerUnitCombinedBuilder
